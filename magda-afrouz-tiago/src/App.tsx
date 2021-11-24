@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Tiago } from './components/Tiago';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <p>
           Afrouz did the change!
         </p>
+        <Tiago />
         <a
           className="App-link"
           href="https://reactjs.org"
