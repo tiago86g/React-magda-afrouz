@@ -11,7 +11,7 @@ function App() {
         <p>
           Afrouz did the change!
         </p>
-        <Tiago />
+        <Tiago name={"tiago"} age={35} />
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -1,13 +1,14 @@
 import React from 'react'
 
 interface Props {
-
+  name: string,
+  age: number
 }
 
-export const Tiago = (props: Props) => {
+export const Tiago: React.FC<Props> = ({ name, age }) => {
   return (
     <div>
-      Hi from Tiago
+      Hi from {name} he is {age} years old
     </div>
   )
 }
